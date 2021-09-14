@@ -303,3 +303,42 @@ SEZIONE PARTNER
 /* **************** 
    / SEZIONE PARTNER
 **************** */
+
+
+/* **************** 
+    SEZIONE BUSINESS
+**************** */
+#business {
+    width: 68%;
+    margin: auto;
+    padding-top: 100px;
+}
+#business h2 {
+    width: 100%;
+    margin-right: 20px;
+    font-size: 36px;
+}
+
+#business .rowA {
+    width: 100%;
+    margin-right: 20px;
+    padding: 55px 0;
+}
+
+#business .rowA .product {
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+    float: left;
+    padding-right: 20px;
+}
+
+#business .rowA .product h3 {
+    font-size: 25px;
+}
+
+#business .product h3, #business .product p, #business .product img {
+    padding-bottom: 20px;
+}
+/* **************** 
+   / SEZIONE BUSINESS
+**************** */
