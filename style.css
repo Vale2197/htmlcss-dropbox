@@ -18,11 +18,14 @@ body {
 header {
     width: 100%;
     height: 70px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
 }
 
 header nav {
     line-height: 70px;
-    width: 95%;
+    width: 98%;
     margin: auto;
 }
 header ul {
@@ -64,3 +67,58 @@ header nav .button {
     padding: 7px 20px;
 }
 /* / HEADER */
+
+/* **************** 
+    SEZIONE BANNER
+**************** */
+
+#banner {
+    background-color: #B4D0E7;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+#banner .container {
+    width: 80%;
+    margin: auto;
+}
+
+#banner h1 {
+    font-size: 66px;
+    padding-top: 60px;
+}
+
+#banner p {
+    width: 35%;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+#banner .prova {
+    background-color: #0061FF;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+#banner .annulla a {
+    font-size: 30px;
+    color: black;
+    margin-top: 25px;
+}
+
+#banner .annulla {
+    margin-top: 20px;
+}
+
+#banner .img {
+    width: 56%;
+    position: absolute;
+    bottom: -95px;
+    right: 40px;
+}
+
+/* **************** 
+   / SEZIONE BANNER
+**************** */
