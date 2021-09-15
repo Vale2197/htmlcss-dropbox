@@ -379,6 +379,7 @@ SEZIONE PARTNER
     width: 400px;
     height: 400px;
     float: left;
+    margin-bottom: 150px;
 }
 
 #compagnie .row {
@@ -398,6 +399,7 @@ SEZIONE PARTNER
     height: 400px;
     background-color: #F5F5F5;
     padding: 35px;
+    margin-bottom: 150px;
 }
 
 #compagnie .design .logo {
@@ -471,6 +473,44 @@ SEZIONE PARTNER
 }
 /*   / BLOCCHI */
 
+/* STRISCIA IN BASSO */
+#compagnie .containerLg {
+    background-color: #B4D0E7;
+    padding-bottom: 120px;
+}
+
+#compagnie .containerLg .container {
+    width: 68%;
+    margin: auto;
+    padding-right: 20px;
+}
+
+#compagnie .containerLg h2 {
+    font-size: 36px;
+    float: left;
+    color: #61082B;
+}
+
+#compagnie .containerLg a {
+    float: right;
+    background-color: white;
+    color: black;
+    padding: 8px 44px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+/* / STRISCIA IN BASSO */
 /* **************** 
    / SEZIONE COMPAGNIE
+**************** */
+
+
+
+/* **************** 
+ SEZIONE FAQ
+**************** */
+
+/* **************** 
+   / SEZIONE FAQ
 **************** */
