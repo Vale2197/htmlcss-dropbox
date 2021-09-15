@@ -208,6 +208,7 @@ header nav .button {
 
 #offerte .caratteristiche li:nth-child(8) a {
     color: #166FFF;
+    font-weight: bold;
 }
 
 #offerte .puntiDiForza h2 {
@@ -341,4 +342,135 @@ SEZIONE PARTNER
 }
 /* **************** 
    / SEZIONE BUSINESS
+**************** */
+
+
+/* **************** 
+ SEZIONE COMPAGNIE
+**************** */
+#compagnie {
+    width: 100%;
+    padding-top: 100px;
+}
+
+#compagnie .titolo {
+    width: 68%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#compagnie .titolo h2 {
+    font-size: 36px;
+}
+
+#compagnie .titolo h2, #compagnie .titolo a {
+    padding-bottom: 30px;
+}
+
+#compagnie .titolo a {
+    color: #166FFF;
+    font-weight: bold;
+}
+/* / TITOLO */
+
+
+/*   INIZIO BLOCCHI */
+.blocchiSinistra, .blocchiDestra {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+#compagnie .row {
+    width: 100%;
+}
+
+#compagnie .blocco {
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+}
+
+#compagnie .bloccoCentro {
+    float: left;
+    width: calc(100% - 800px);
+    height: 400px;
+    background-color: #F5F5F5;
+    padding: 35px;
+}
+
+#compagnie .design .logo {
+    height: 180px;
+    width: 180px;
+    background-color: #A2D39B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#compagnie .design img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
+
+#compagnie .design {
+    background-color: #D0E9CD;
+}
+
+#compagnie .asu {
+    background-color: #61082B;
+}
+
+#compagnie .blocco img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
+
+#compagnie .florida {
+    background-color: #0093CE;
+}
+
+#compagnie .top {
+    background-color: #FF1C1C;
+}
+
+/* / BLOCCHI SINISTRA */
+
+#compagnie .bicycle {
+    background-color: #D5001F;
+}
+
+#compagnie .hearst {
+    background-color: #B4D0E7;
+}
+
+#compagnie .planet {
+    background-color: #0D2481;
+}
+
+#compagnie .channel {
+    background-color: #FFD830;
+}
+
+/* / BLOCCHI DESTRA */
+#compagnie .bloccoCentro .logo, #compagnie .bloccoCentro p {
+    padding-bottom: 45px;
+}
+
+#compagnie hr {
+    margin-bottom: 45px;
+}
+/*   / BLOCCHI */
+
+/* **************** 
+   / SEZIONE COMPAGNIE
 **************** */
