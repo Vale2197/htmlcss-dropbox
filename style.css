@@ -12,6 +12,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -21,6 +26,7 @@ header {
     position: fixed;
     background-color: white;
     z-index: 1;
+    min-width: 1440px;
 }
 
 header nav {
@@ -163,6 +169,7 @@ header nav .button {
     margin-right: 20px;
     margin-top: 40px;
     border: 1px solid #D9D9DC;
+    min-height: 1000px;
 }
 
 #offerte .col .etichetta {
@@ -417,12 +424,12 @@ SEZIONE PARTNER
     transform: translate(-50%, -50%);
 }
 
-#compagnie .design svg {
+#compagnie .design img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    fill: white;
+    filter: invert(1);
     width: 80%;
 }
 
@@ -434,13 +441,13 @@ SEZIONE PARTNER
     background-color: #61082B;
 }
 
-#compagnie .blocco svg {
+#compagnie .blocco img {
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    fill: white;
+    filter: invert(1);
 }
 
 #compagnie .florida {
