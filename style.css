@@ -554,18 +554,30 @@ SEZIONE PARTNER
     padding: 35px 0;
 }
 
-#faq li h4 {
-    float: left;
-    width: 100%;
+#faq li button h4 {
+    float: left;  
+    font-size: 1rem; 
 }
 
-#faq li h4 i {
+#faq li button i {
     float: right;
 }
 
-#faq li p {
+#faq li button p {
     width: 100%;
     display: none;
+}
+
+#faq button {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+#faq button:focus p {
+    display: inline-block;
+    width: 100%;
+    padding-top: 2rem;
 }
 
 /* **************** 
