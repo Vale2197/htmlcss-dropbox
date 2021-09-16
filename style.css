@@ -79,6 +79,27 @@ header nav .button {
     color: white;
     padding: 7px 20px;
 }
+
+header .menuContatti li ul {
+    display: none;
+}
+
+header .menuContatti li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+}
+
+header .menuContatti li:hover ul li {
+    display: block;
+    padding: 0 10px;
+    line-height:2rem;
+}
+
+header .menuContatti .supporto:hover {
+    border: none;
+}
 /* / HEADER */
 
 /* **************** 
