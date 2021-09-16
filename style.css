@@ -554,32 +554,37 @@ SEZIONE PARTNER
     padding: 35px 0;
 }
 
-#faq li button h4 {
-    float: left;  
-    font-size: 1rem; 
+#faq li h4 {
+    float: left;
+    width: 100%;
 }
 
-#faq li button i {
+#faq li h4 i {
     float: right;
 }
 
-#faq li button p {
+#faq li p {
     width: 100%;
     display: none;
 }
 
-#faq button {
-    background: none;
-    border: none;
-    width: 100%;
-}
-
-#faq button:focus p {
-    display: inline-block;
+#faq li:hover p{
+    display: block;
     width: 100%;
     padding-top: 2rem;
 }
 
+#faq .fa-chevron-up {
+    display: none;
+}
+
+#faq li:hover .fa-chevron-up {
+    display: inline-block;
+}
+
+#faq li:hover .fa-chevron-down {
+    display: none;
+}
 /* **************** 
    / SEZIONE FAQ
 **************** */
